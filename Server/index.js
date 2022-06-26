@@ -3,6 +3,13 @@ const app=express();
 const mongoose=require('mongoose')
 const passport=require('passport')
 const User=require('./models/user')
+const messageRoute=require('./routes/message')
+var cors = require('cors')
+
+app.use(express.json());
+app.use(cors());
+app.use('/message',messageRoute)
+
 //database connection
 mongoose.connect('mongodb+srv://shakoor:shakoor@cluster0.40mzq.mongodb.net/?retryWrites=true&w=majority',()=>{
     console.log("Mongoose connected");
@@ -69,12 +76,12 @@ app.get("/login/success",async (req, res) => {
                 name:profile.displayName,
                 image:profile.photos[0].value,
             })
-            console.log(newUser);
             
             const user=await newUser.save();
-            res.status(200).json(user)
+            res.status(200).json(user._doc)
             } catch (err) {
-                res.status(500).json(err)
+              const cuser=await User.findOne({ googleId:err.keyValue.googleId })
+                res.status(200).json(cuser)
             }
     }
   });
