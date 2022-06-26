@@ -1,0 +1,111 @@
+@mixin large-title {
+  @include fontSize(26pt, 32pt);
+  @include fontStyle(Bold);
+}
+
+@mixin title1 {
+  @include fontSize(22pt, 26pt);
+  @include fontStyle(Bold);
+}
+
+@mixin title2 {
+  @include fontSize(17pt, 22pt);
+  @include fontStyle(Bold);
+}
+
+@mixin title3 {
+  @include fontSize(15pt, 20pt);
+  @include fontStyle(Semibold);
+}
+
+@mixin headline {
+  @include fontSize(13pt, 16pt);
+  @include fontStyle(Heavy);
+}
+
+@mixin subheadline {
+  @include fontSize(11pt, 14pt);
+  @include fontStyle(Semibold);
+}
+
+@mixin body {
+  @include fontSize(13pt, 16pt);
+  @include fontStyle(Semibold);
+}
+
+@mixin callout {
+  @include fontSize(12pt, 15pt);
+  @include fontStyle(Semibold);
+}
+
+@mixin footnote {
+  @include fontSize(10pt, 13pt);
+  @include fontStyle(Semibold);
+}
+
+@mixin caption1 {
+  @include fontSize(10pt, 13pt);
+  @include fontStyle(Medium);
+}
+
+@mixin caption2 {
+  @include fontSize(10pt, 13pt);
+  @include fontStyle(Semibold);
+}
+
+// Thin font styles
+
+@mixin large-title-l {
+  @include fontSize(26pt, 32pt);
+  @include fontStyle(Regular);
+}
+
+@mixin title1-l {
+  @include fontSize(22pt, 26pt);
+  @include fontStyle(Regular);
+}
+
+@mixin title2-l {
+  @include fontSize(17pt, 22pt);
+  @include fontStyle(Regular);
+}
+
+@mixin title3-l {
+  @include fontSize(15pt, 20pt);
+  @include fontStyle(Regular);
+}
+
+@mixin headline-l {
+  @include fontSize(13pt, 16pt);
+  @include fontStyle(Bold);
+}
+
+@mixin subheadline-l {
+  @include fontSize(11pt, 14pt);
+  @include fontStyle(Regular);
+}
+
+@mixin body-l {
+  @include fontSize(13pt, 16pt);
+  @include fontStyle(Regular);
+}
+
+@mixin callout-l {
+  @include fontSize(12pt, 15pt);
+  @include fontStyle(Regular);
+}
+
+@mixin footnote-l {
+  @include fontSize(10pt, 13pt);
+  @include fontStyle(Regular);
+}
+
+@mixin caption1-l {
+  @include fontSize(10pt, 13pt);
+  @include fontStyle(Regular);
+}
+
+@mixin caption2-l {
+  @include fontSize(10pt, 13pt);
+  @include fontStyle(Medium);
+}

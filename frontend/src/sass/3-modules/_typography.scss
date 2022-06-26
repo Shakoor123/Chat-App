@@ -1,0 +1,43 @@
+.lt {
+  @include large-title;
+}
+
+.t1 {
+  @include title1;
+}
+
+.t2 {
+  @include title2;
+}
+
+.t3 {
+  @include title3;
+}
+
+.hd {
+  @include headline;
+}
+
+.shd {
+  @include subheadline;
+}
+
+.bd {
+  @include body;
+}
+
+.co {
+  @include callout;
+}
+
+.fn {
+  @include footnote;
+}
+
+.c1 {
+  @include caption1;
+}
+
+.c2 {
+  @include caption2;
+}

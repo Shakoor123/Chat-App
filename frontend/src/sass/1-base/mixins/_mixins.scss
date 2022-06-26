@@ -1,0 +1,8 @@
+@mixin fontSize($size, $line-height) {
+  font-size: $size;
+  line-height: $line-height;
+}
+
+@mixin fontStyle($style) {
+  font-family: SF Pro $style;
+}
