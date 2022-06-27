@@ -206,4 +206,68 @@ body {
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
   height: 100vh;
   width: 100%;
+}
+
+.google {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.google a {
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 40px;
+  gap: 10px;
+  width: 268px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  color: #000;
+  text-decoration: none;
+  font-size: 13pt;
+  line-height: 16pt;
+  font-family: SF Pro Regular;
+}
+.google a:hover {
+  background-color: #f2f2f2;
+}
+.google a svg {
+  height: 17px;
+  width: 17px;
+}
+
+.left {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left .motto {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  width: 100%;
+  height: 25vh;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.left .motto h1 {
+  font-family: SF Display Bold;
+  font-size: 65px;
+  line-height: 78px;
+  margin-left: 50px;
+}
+.left .motto h2 {
+  margin-left: 75px;
+  font-family: SF Pro Thin;
+  font-size: 55px;
+  line-height: 78px;
 }/*# sourceMappingURL=App.css.map */
