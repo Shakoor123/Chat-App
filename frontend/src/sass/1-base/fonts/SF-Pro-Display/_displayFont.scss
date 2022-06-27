@@ -1,0 +1,45 @@
+$dir-d: "./1-base/fonts/SF-Pro-Display/";
+
+@mixin fontfom($variants) {
+  font-family: SF Display $variants;
+  src: url(#{$dir-d}#{$variants}.otf);
+}
+
+
+// Display fonts
+
+@font-face {
+  @include fontfom(Bold);
+}
+
+@font-face {
+  @include fontfom(BlackItalic);
+}
+
+@font-face {
+  @include fontfom(HeavyItalic);
+}
+
+@font-face {
+  @include fontfom(LightItalic);
+}
+
+@font-face {
+  @include fontfom(Medium);
+}
+
+@font-face {
+  @include fontfom(Regular);
+}
+
+@font-face {
+  @include fontfom(SemiboldItalic);
+}
+
+@font-face {
+  @include fontfom(ThinItalic);
+}
+
+@font-face {
+  @include fontfom(UltralightItalic);
+}

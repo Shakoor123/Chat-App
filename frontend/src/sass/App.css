@@ -5,76 +5,112 @@ body {
 }
 
 @font-face {
+  font-family: SF Display Bold;
+  src: url(./1-base/fonts/SF-Pro-Display/Bold.otf);
+}
+@font-face {
+  font-family: SF Display BlackItalic;
+  src: url(./1-base/fonts/SF-Pro-Display/BlackItalic.otf);
+}
+@font-face {
+  font-family: SF Display HeavyItalic;
+  src: url(./1-base/fonts/SF-Pro-Display/HeavyItalic.otf);
+}
+@font-face {
+  font-family: SF Display LightItalic;
+  src: url(./1-base/fonts/SF-Pro-Display/LightItalic.otf);
+}
+@font-face {
+  font-family: SF Display Medium;
+  src: url(./1-base/fonts/SF-Pro-Display/Medium.otf);
+}
+@font-face {
+  font-family: SF Display Regular;
+  src: url(./1-base/fonts/SF-Pro-Display/Regular.otf);
+}
+@font-face {
+  font-family: SF Display SemiboldItalic;
+  src: url(./1-base/fonts/SF-Pro-Display/SemiboldItalic.otf);
+}
+@font-face {
+  font-family: SF Display ThinItalic;
+  src: url(./1-base/fonts/SF-Pro-Display/ThinItalic.otf);
+}
+@font-face {
+  font-family: SF Display UltralightItalic;
+  src: url(./1-base/fonts/SF-Pro-Display/UltralightItalic.otf);
+}
+@font-face {
   font-family: SF Pro Ultralight;
-  src: url(./fonts/SF-Pro-Text/Ultralight.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Ultralight.otf);
 }
 @font-face {
   font-family: SF Pro UltralightItalic;
-  src: url(./fonts/SF-Pro-Text/UltralightItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/UltralightItalic.otf);
 }
 @font-face {
   font-family: SF Pro Thin;
-  src: url(./fonts/SF-Pro-Text/Thin.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Thin.otf);
 }
 @font-face {
   font-family: SF Pro ThinItalic;
-  src: url(./fonts/SF-Pro-Text/ThinItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/ThinItalic.otf);
 }
 @font-face {
   font-family: SF Pro Light;
-  src: url(./fonts/SF-Pro-Text/Light.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Light.otf);
 }
 @font-face {
   font-family: SF Pro LightItalic;
-  src: url(./fonts/SF-Pro-Text/LightItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/LightItalic.otf);
 }
 @font-face {
   font-family: SF Pro Regular;
-  src: url(./fonts/SF-Pro-Text/Regular.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Regular.otf);
 }
 @font-face {
   font-family: SF Pro RegularItalic;
-  src: url(./fonts/SF-Pro-Text/RegularItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/RegularItalic.otf);
 }
 @font-face {
   font-family: SF Pro Bold;
-  src: url(./fonts/SF-Pro-Text/Bold.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Bold.otf);
 }
 @font-face {
   font-family: SF Pro BoldItalic;
-  src: url(./fonts/SF-Pro-Text/BoldItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/BoldItalic.otf);
 }
 @font-face {
   font-family: SF Pro Medium;
-  src: url(./fonts/SF-Pro-Text/Medium.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Medium.otf);
 }
 @font-face {
   font-family: SF Pro MediumItalic;
-  src: url(./fonts/SF-Pro-Text/MediumItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/MediumItalic.otf);
 }
 @font-face {
   font-family: SF Pro Semibold;
-  src: url(./fonts/SF-Pro-Text/Semibold.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Semibold.otf);
 }
 @font-face {
   font-family: SF Pro SemiboldItalic;
-  src: url(./fonts/SF-Pro-Text/SemiboldItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/SemiboldItalic.otf);
 }
 @font-face {
   font-family: SF Pro Heavy;
-  src: url(./fonts/SF-Pro-Text/Heavy.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Heavy.otf);
 }
 @font-face {
   font-family: SF Pro HeavyItalic;
-  src: url(./fonts/SF-Pro-Text/HeavyItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/HeavyItalic.otf);
 }
 @font-face {
   font-family: SF Pro Black;
-  src: url(./fonts/SF-Pro-Text/Black.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/Black.otf);
 }
 @font-face {
   font-family: SF Pro BlackItalic;
-  src: url(./fonts/SF-Pro-Text/BlackItalic.otf);
+  src: url(./1-base/fonts/SF-Pro-Text/BlackItalic.otf);
 }
 .lt {
   font-size: 26pt;
@@ -151,7 +187,7 @@ body {
   gap: 10px;
   width: 133px;
   height: 48px;
-  background: #007AFF;
+  background: #007aff;
   border-radius: 10px;
   flex: none;
   order: 0;
@@ -159,4 +195,4 @@ body {
   font-size: 13pt;
   line-height: 16pt;
   font-family: SF Pro Regular;
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */

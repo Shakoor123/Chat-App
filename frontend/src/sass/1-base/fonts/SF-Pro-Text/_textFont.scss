@@ -1,89 +1,78 @@
-@font-face {
-  font-family: SF Pro Ultralight;
-  src: url(./fonts/SF-Pro-Text/Ultralight.otf);
+$dir: "./1-base/fonts/SF-Pro-Text/";
+
+@mixin fontfom-t($variants) {
+  font-family: SF Pro $variants;
+  src: url(#{$dir}#{$variants}.otf);
 }
 
 @font-face {
-  font-family: SF Pro UltralightItalic;
-  src: url(./fonts/SF-Pro-Text/UltralightItalic.otf);
+  @include fontfom-t(Ultralight);
 }
 
 @font-face {
-  font-family: SF Pro Thin;
-  src: url(./fonts/SF-Pro-Text/Thin.otf);
+  @include fontfom-t(UltralightItalic);
 }
 
 @font-face {
-  font-family: SF Pro ThinItalic;
-  src: url(./fonts/SF-Pro-Text/ThinItalic.otf);
+  @include fontfom-t(Thin);
 }
 
 @font-face {
-  font-family: SF Pro Light;
-  src: url(./fonts/SF-Pro-Text/Light.otf);
+  @include fontfom-t(ThinItalic);
 }
 
 @font-face {
-  font-family: SF Pro LightItalic;
-  src: url(./fonts/SF-Pro-Text/LightItalic.otf);
+  @include fontfom-t(Light);
 }
 
 @font-face {
-  font-family: SF Pro Regular;
-  src: url(./fonts/SF-Pro-Text/Regular.otf);
+  @include fontfom-t(LightItalic);
 }
 
 @font-face {
-  font-family: SF Pro RegularItalic;
-  src: url(./fonts/SF-Pro-Text/RegularItalic.otf);
+  @include fontfom-t(Regular);
 }
 
 @font-face {
-  font-family: SF Pro Bold;
-  src: url(./fonts/SF-Pro-Text/Bold.otf);
+  @include fontfom-t(RegularItalic);
 }
 
 @font-face {
-  font-family: SF Pro BoldItalic;
-  src: url(./fonts/SF-Pro-Text/BoldItalic.otf);
+  @include fontfom-t(Bold);
 }
 
 @font-face {
-  font-family: SF Pro Medium;
-  src: url(./fonts/SF-Pro-Text/Medium.otf);
+  @include fontfom-t(BoldItalic);
 }
 
 @font-face {
-  font-family: SF Pro MediumItalic;
-  src: url(./fonts/SF-Pro-Text/MediumItalic.otf);
+  @include fontfom-t(Medium);
 }
 
 @font-face {
-  font-family: SF Pro Semibold;
-  src: url(./fonts/SF-Pro-Text/Semibold.otf);
+  @include fontfom-t(MediumItalic);
 }
 
 @font-face {
-  font-family: SF Pro SemiboldItalic;
-  src: url(./fonts/SF-Pro-Text/SemiboldItalic.otf);
+  @include fontfom-t(Semibold);
 }
 
 @font-face {
-  font-family: SF Pro Heavy;
-  src: url(./fonts/SF-Pro-Text/Heavy.otf);
+  @include fontfom-t(SemiboldItalic);
 }
 
 @font-face {
-  font-family: SF Pro HeavyItalic;
-  src: url(./fonts/SF-Pro-Text/HeavyItalic.otf);
+  @include fontfom-t(Heavy);
 }
 
 @font-face {
-  font-family: SF Pro Black;
-  src: url(./fonts/SF-Pro-Text/Black.otf);
+  @include fontfom-t(HeavyItalic);
 }
 
 @font-face {
-  font-family: SF Pro BlackItalic;
-  src: url(./fonts/SF-Pro-Text/BlackItalic.otf);
+  @include fontfom-t(Black);
+}
+
+@font-face {
+  @include fontfom-t(BlackItalic);
 }
