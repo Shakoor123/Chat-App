@@ -1,0 +1,28 @@
+input[type="text"] {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 16px;
+  width: 390px;
+  height: 44px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background-color: $primary-color;
+  outline: none;
+  border: none;
+  border-bottom: 0.5px solid #c6c6c8;
+  caret-color: $blue;
+  @include body-l;
+  &::placeholder {
+    @include body-l;
+    color: $secondary-label;
+  }
+}
+
+input[type="image"] {
+  width: 182px;
+  height: 182px;
+  border-radius: 100px;
+}

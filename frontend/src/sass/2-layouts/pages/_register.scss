@@ -1,0 +1,54 @@
+.regs {
+  width: 50%;
+}
+.right {
+  width: 50%;
+  height: 100vh;
+  background-color: $secondary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-form {
+  width: 512px;
+  height: 672px;
+  background-color: $primary-color;
+  box-shadow: 4px 4px 17px -6px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  .head {
+    height: 118px;
+    width: 100%;
+    // background-color: $red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      width: 772px;
+      text-align: center;
+      height: 56px;
+      font-family: "SF Display Bold";
+      font-size: 40px;
+      line-height: 48px;
+      padding-bottom: 70px;
+    }
+    span {
+      // position: absolute;
+      width: 498px;
+      height: 1px;
+      // left: calc(50% - 266px + 491.5px);
+      // top: calc(50% - -86.5px - 306.5px);
+
+      background: #ebebeb;
+      border-radius: 2px;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
