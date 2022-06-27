@@ -1,3 +1,5 @@
+// Bold styles
+
 @mixin large-title {
   @include fontSize(26pt, 32pt);
   @include fontStyle(Bold);
@@ -53,7 +55,7 @@
   @include fontStyle(Semibold);
 }
 
-// Thin font styles
+// Default typo
 
 @mixin large-title-l {
   @include fontSize(26pt, 32pt);
