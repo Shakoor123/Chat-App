@@ -6,3 +6,7 @@
 @mixin fontStyle($style) {
   font-family: SF Pro $style;
 }
+
+@mixin fontStyle-d($style) {
+  font-family: SF Display $style;
+}

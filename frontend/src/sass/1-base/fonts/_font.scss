@@ -2,17 +2,17 @@
 
 @mixin large-title {
   @include fontSize(26pt, 32pt);
-  @include fontStyle(Bold);
+  @include fontStyle-d(Bold);
 }
 
 @mixin title1 {
   @include fontSize(22pt, 26pt);
-  @include fontStyle(Bold);
+  @include fontStyle-d(Bold);
 }
 
 @mixin title2 {
   @include fontSize(17pt, 22pt);
-  @include fontStyle(Bold);
+  @include fontStyle-d(Bold);
 }
 
 @mixin title3 {
@@ -59,17 +59,17 @@
 
 @mixin large-title-l {
   @include fontSize(26pt, 32pt);
-  @include fontStyle(Regular);
+  @include fontStyle-d(Regular);
 }
 
 @mixin title1-l {
   @include fontSize(22pt, 26pt);
-  @include fontStyle(Regular);
+  @include fontStyle-d(Regular);
 }
 
 @mixin title2-l {
   @include fontSize(17pt, 22pt);
-  @include fontStyle(Regular);
+  @include fontStyle-d(Regular);
 }
 
 @mixin title3-l {
